@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <alpha
+        android:duration="1000"
+        android:fromAlpha="0.0"
+        android:toAlpha="1.0"
+        />
+</set>
+    <!--
+           渐变透明效果
+
+            duration :持续时间 单位毫秒
+            fromAlpha: 起始的透明度 浮点型
+            toAlpha: 结束的透明度  浮点型
+            0.0-1.0：0.0完全透明 1.0完全不透明
+        -->

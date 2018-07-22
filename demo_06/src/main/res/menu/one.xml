@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/ms"
+        android:icon="@drawable/ms"
+        android:title="秒杀" />
+    <item
+        android:id="@+id/qc"
+        android:title="清除"
+        android:icon="@drawable/qc"
+        />
+    <item
+        android:id="@+id/tj"
+        android:title="特价"
+        android:icon="@drawable/tj"
+        />
+</menu>

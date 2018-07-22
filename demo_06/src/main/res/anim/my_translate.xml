@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <translate
+        android:duration="2000"
+        android:fromXDelta="30"
+        android:fromYDelta="30"
+        android:toXDelta="100"
+        android:toYDelta="100"
+        />
+</set>
+<!--
+    translate
+        位置转移效果
+
+            整型值
+                fromXDelta 起始时X位置
+                fromYDelta 起始时Y位置
+                toXDelta 结束时X位置
+                toYDelta 结束时Y位置
+           注意没有指定fromXType toXType fromYType toYType 时候，
+                     默认是以自己为相对参照物
+-->

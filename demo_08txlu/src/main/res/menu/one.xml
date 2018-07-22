@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="联系人设置"
+        android:id="@+id/psetting"
+        />
+    <item
+        android:title="通话设置"
+        android:id="@+id/csetting"
+        />
+    <item
+        android:title="删除联系人"
+        android:id="@+id/pdelete"
+        />
+</menu>

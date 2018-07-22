@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <rotate
+        android:duration="4000"
+        android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+        android:fromDegrees="0"
+        android:toDegrees="360"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        />
+</set>
+<!--
+        rotate
+            旋转动画效果
+
+            interppolator
+                动画插入器
+                    使用android.res.anim中的资源时候发现
+                    有三种动画插入器:
+                    accelerate_decelerate_interpolator   加速-减速 动画插入器
+                    accelerate_interpolator               加速-动画插入器
+                    decelerate_interpolator               减速- 动画插入器
+                    其他的属于特定的动画效果
+            fromDegrees 起始时的角度
+            toDegrees  结束时的角度
+                当角度为负数——表示逆时针旋转
+                     当角度为正数——表示顺时针旋转
+                     (负数from——to正数:顺时针旋转)
+                     (负数from——to负数:逆时针旋转)
+                     (正数from——to正数:顺时针旋转)
+                     (正数from——to负数:逆时针旋转)
+            pivotX属性为动画相对于物件的X坐标的开始位置
+            pivotY
+                 以上两个属性值 从0%-100%中取值
+                         50%为物件的X或Y方向坐标上的中点位置
+
+-->
