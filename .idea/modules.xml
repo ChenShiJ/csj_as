@@ -11,6 +11,9 @@
       <module fileurl="file://$PROJECT_DIR$/demo_07/demo_07.iml" filepath="$PROJECT_DIR$/demo_07/demo_07.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo_08txlu/demo_08txlu.iml" filepath="$PROJECT_DIR$/demo_08txlu/demo_08txlu.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo_09/demo_09.iml" filepath="$PROJECT_DIR$/demo_09/demo_09.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo_10/demo_10.iml" filepath="$PROJECT_DIR$/demo_10/demo_10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo_11/demo_11.iml" filepath="$PROJECT_DIR$/demo_11/demo_11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rollviewpage_demo/rollviewpage_demo.iml" filepath="$PROJECT_DIR$/rollviewpage_demo/rollviewpage_demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/upload_demo/upload_demo.iml" filepath="$PROJECT_DIR$/upload_demo/upload_demo.iml" />
     </modules>
   </component>

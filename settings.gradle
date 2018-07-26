@@ -1,1 +1,1 @@
-include ':app', ':demo_03', ':demo_04', ':demo_05', ':demo_06', ':demo_06', ':demo_07', ':demo_08txlu', ':upload_demo', ':demo_09'
+include ':app', ':demo_03', ':demo_04', ':demo_05', ':demo_06', ':demo_06', ':demo_07', ':demo_08txlu', ':upload_demo', ':demo_09', ':demo_10', ':rollviewpage_demo', ':demo_11'

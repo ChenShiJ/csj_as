@@ -1,9 +1,7 @@
 package com.hzyc.csj.demo_02;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.Toast;
+import android.support.v7.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity{
 
