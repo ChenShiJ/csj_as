@@ -10,6 +10,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/demo_015" />
             <option value="$PROJECT_DIR$/demo_03" />
             <option value="$PROJECT_DIR$/demo_04" />
             <option value="$PROJECT_DIR$/demo_05" />
@@ -19,6 +20,7 @@
             <option value="$PROJECT_DIR$/demo_09" />
             <option value="$PROJECT_DIR$/demo_10" />
             <option value="$PROJECT_DIR$/demo_11" />
+            <option value="$PROJECT_DIR$/demo_music" />
             <option value="$PROJECT_DIR$/rollviewpage_demo" />
             <option value="$PROJECT_DIR$/upload_demo" />
           </set>
@@ -27,6 +29,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/demo_015" />
             <option value="$PROJECT_DIR$/demo_03" />
             <option value="$PROJECT_DIR$/demo_04" />
             <option value="$PROJECT_DIR$/demo_05" />
@@ -36,6 +39,7 @@
             <option value="$PROJECT_DIR$/demo_09" />
             <option value="$PROJECT_DIR$/demo_10" />
             <option value="$PROJECT_DIR$/demo_11" />
+            <option value="$PROJECT_DIR$/demo_music" />
             <option value="$PROJECT_DIR$/rollviewpage_demo" />
             <option value="$PROJECT_DIR$/upload_demo" />
           </set>

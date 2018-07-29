@@ -57,9 +57,11 @@ public class MainActivity extends AppCompatActivity {
         if(i%2==0){
             i++;
             mediaPlayer.pause();
+            stop.setText("继续");
         }else{
             i++;
             mediaPlayer.start();
+            stop.setText("暂停");
         }
     }
 }
