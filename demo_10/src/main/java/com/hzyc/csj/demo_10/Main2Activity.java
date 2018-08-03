@@ -27,7 +27,7 @@ public class Main2Activity extends AppCompatActivity {
     private TextView username,password;
     private static final String RPATH="http://192.168.1.166:8080/csj_web_android_001/RegisterServlet";
     //private static final String LPATH="http://192.168.1.166:8080/csj_web_android_001/LoginServlet";
-    private static final String LPATH="http://192.168.1.166:8080/csj_web_android_001/LoginServlet";
+    private static final String LPATH="http://10.151.4.8:8080/csj_web_android_001/LoginServlet";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/itemPhoto"
+        android:src="@drawable/canying"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="菜名"
+        android:textSize="25dp"
+        android:id="@+id/itemName"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/itemPhoto"
+        android:layout_toEndOf="@+id/itemPhoto" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="单价"
+        android:textSize="20dp"
+        android:id="@+id/itemPrice"
+        android:layout_below="@+id/itemName"
+        android:layout_toRightOf="@+id/itemPhoto"
+        android:layout_toEndOf="@+id/itemPhoto" />
+
+    <RatingBar
+        style="?android:ratingBarStyleSmall"
+        android:rating="4"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:id="@+id/ratingBar"
+        android:layout_alignBottom="@+id/itemPhoto"
+        android:layout_toRightOf="@+id/itemPhoto"
+        android:layout_toEndOf="@+id/itemPhoto" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:text="+"
+        android:id="@+id/addItem"
+        android:layout_above="@+id/ratingBar"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="0"
+        android:gravity="center"
+        android:id="@+id/itemNum"
+        android:textSize="20dp"
+        android:layout_alignTop="@+id/addItem"
+        android:layout_toLeftOf="@+id/addItem"
+        android:layout_toStartOf="@+id/addItem" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:text="-"
+        android:id="@+id/loseNum"
+        android:layout_above="@+id/ratingBar"
+        android:layout_toLeftOf="@+id/itemNum"
+        android:layout_toStartOf="@+id/itemNum" />
+
+
+</RelativeLayout>

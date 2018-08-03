@@ -4,7 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MyApplication.iml" filepath="$PROJECT_DIR$/MyApplication.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/demo_015/demo_015.iml" filepath="$PROJECT_DIR$/demo_015/demo_015.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo_03/demo_03.iml" filepath="$PROJECT_DIR$/demo_03/demo_03.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo_04/demo_04.iml" filepath="$PROJECT_DIR$/demo_04/demo_04.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo_05/demo_05.iml" filepath="$PROJECT_DIR$/demo_05/demo_05.iml" />
@@ -14,8 +13,11 @@
       <module fileurl="file://$PROJECT_DIR$/demo_09/demo_09.iml" filepath="$PROJECT_DIR$/demo_09/demo_09.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo_10/demo_10.iml" filepath="$PROJECT_DIR$/demo_10/demo_10.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo_11/demo_11.iml" filepath="$PROJECT_DIR$/demo_11/demo_11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo_12/demo_12.iml" filepath="$PROJECT_DIR$/demo_12/demo_12.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo_music/demo_music.iml" filepath="$PROJECT_DIR$/demo_music/demo_music.iml" />
-      <module fileurl="file://$PROJECT_DIR$/rollviewpage_demo/rollviewpage_demo.iml" filepath="$PROJECT_DIR$/rollviewpage_demo/rollviewpage_demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libzxing/libzxing.iml" filepath="$PROJECT_DIR$/libzxing/libzxing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/navigdemo/navigdemo.iml" filepath="$PROJECT_DIR$/navigdemo/navigdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oedermealsystem/oedermealsystem.iml" filepath="$PROJECT_DIR$/oedermealsystem/oedermealsystem.iml" />
       <module fileurl="file://$PROJECT_DIR$/upload_demo/upload_demo.iml" filepath="$PROJECT_DIR$/upload_demo/upload_demo.iml" />
     </modules>
   </component>

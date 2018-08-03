@@ -6,7 +6,6 @@ import android.graphics.BitmapFactory;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -32,7 +31,7 @@ import java.util.List;
 public class Main3Activity extends AppCompatActivity {
     private ListView listView;
     private ProgressDialog progressDialog;
-    private static final String LISTPATH="http://192.168.1.166:8080/csj_web_android_001/ListGoodsServlet";
+    private static final String LISTPATH="http://10.151.4.8:8080/csj_web_android_001/ListGoodsServlet";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -116,7 +115,7 @@ public class Main3Activity extends AppCompatActivity {
                     goods.setShops(jsonObject.getString("shops"));
                     list.add(goods);
                 }
-                Log.i("list",list.size()+"");
+               // Log.i("list的大小",list.size()+"");
                 return list;
             } catch (JSONException e) {
                 e.printStackTrace();
