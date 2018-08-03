@@ -1,4 +1,4 @@
-package com.hzyc.csj.oedermealsystem;
+package com.hzyc.csj.ordermealsystem.fragment;
 
 import android.annotation.TargetApi;
 import android.app.Fragment;
@@ -19,6 +19,9 @@ import android.widget.ListView;
 import android.widget.RatingBar;
 import android.widget.TextView;
 
+import com.hzyc.csj.oedermealsystem.R;
+import com.hzyc.csj.ordermealsystem.model.Delicious;
+
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -35,7 +38,7 @@ import java.util.List;
 /**
  * Created by 小柿子 on 2018/8/2.
  */
-public class OrderFragement extends Fragment {
+public class OrderFragment extends Fragment {
     private ListView listView;
     private ProgressDialog progressDialog;
     private static final String LISTPATH="http://10.151.4.8:8080/csj_web_android_osystem/ListDelicious.do";

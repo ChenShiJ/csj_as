@@ -1,10 +1,12 @@
-package com.hzyc.csj.oedermealsystem;
+package com.hzyc.csj.ordermealsystem;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.GestureDetector;
 import android.view.MotionEvent;
 import android.widget.ViewFlipper;
+
+import com.hzyc.csj.oedermealsystem.R;
 
 
 public class MainActivity extends AppCompatActivity {

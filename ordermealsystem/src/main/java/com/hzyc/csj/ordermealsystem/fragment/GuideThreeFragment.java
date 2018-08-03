@@ -1,4 +1,4 @@
-package com.hzyc.csj.oedermealsystem;
+package com.hzyc.csj.ordermealsystem.fragment;
 
 
 import android.content.Intent;
@@ -9,6 +9,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
+import com.hzyc.csj.oedermealsystem.R;
+import com.hzyc.csj.ordermealsystem.Main2Activity;
 
 
 public class GuideThreeFragment extends Fragment {

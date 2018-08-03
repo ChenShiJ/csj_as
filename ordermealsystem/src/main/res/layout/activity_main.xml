@@ -16,17 +16,17 @@
             android:layout_height="match_parent">
 
             <fragment
-                class="com.hzyc.csj.oedermealsystem.GuideOneFragment"
+                class="com.hzyc.csj.ordermealsystem.fragment.GuideOneFragment"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" />
 
             <fragment
-                class="com.hzyc.csj.oedermealsystem.GuideTwoFragment"
+                class="com.hzyc.csj.ordermealsystem.fragment.GuideTwoFragment"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" />
 
             <fragment
-                class="com.hzyc.csj.oedermealsystem.GuideThreeFragment"
+                class="com.hzyc.csj.ordermealsystem.fragment.GuideThreeFragment"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" />
         </ViewFlipper>

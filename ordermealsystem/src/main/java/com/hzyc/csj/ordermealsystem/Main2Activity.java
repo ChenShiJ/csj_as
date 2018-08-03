@@ -1,4 +1,4 @@
-package com.hzyc.csj.oedermealsystem;
+package com.hzyc.csj.ordermealsystem;
 
 import android.app.AlertDialog;
 import android.app.ProgressDialog;
@@ -12,6 +12,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.hzyc.csj.oedermealsystem.R;
+import com.hzyc.csj.ordermealsystem.utils.StringRegexTools;
 
 import java.io.BufferedReader;
 import java.io.IOException;

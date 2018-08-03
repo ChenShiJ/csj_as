@@ -1,4 +1,4 @@
-package com.hzyc.csj.oedermealsystem;
+package com.hzyc.csj.ordermealsystem.model;
 
 /**
  * Created by 小柿子 on 2018/8/3.
