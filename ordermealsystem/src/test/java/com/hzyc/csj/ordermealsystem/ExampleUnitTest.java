@@ -1,4 +1,4 @@
-package com.hzyc.csj.oedermealsystem;
+package com.hzyc.csj.ordermealsystem;
 
 import org.junit.Test;
 

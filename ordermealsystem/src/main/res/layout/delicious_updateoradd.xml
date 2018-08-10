@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="名  称:"
+        android:textSize="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView10" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/udName"
+        android:textSize="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/textView10"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="单  价:"
+        android:textSize="25dp"
+        android:layout_below="@+id/udName"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="58dp"
+        android:id="@+id/textView12" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/udPrice"
+        android:textSize="20dp"
+        android:layout_alignBottom="@+id/textView12"
+        android:layout_toRightOf="@+id/textView12"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="推荐指数:"
+        android:textSize="20dp"
+        android:layout_below="@+id/textView12"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="66dp"
+        android:id="@+id/textView13" />
+
+    <RatingBar
+        style="?android:ratingBarStyleSmall"
+        android:rating="4"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:id="@+id/udTj"
+        android:layout_alignTop="@+id/textView13"
+        android:layout_toRightOf="@+id/textView13"
+        android:layout_toEndOf="@+id/textView13" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/udPhoto"
+        android:src="@drawable/canying"
+        android:layout_below="@+id/udTj"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="68dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="图  片:"
+        android:textSize="25dp"
+        android:layout_alignTop="@+id/udPhoto"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

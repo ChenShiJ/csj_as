@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4424f050"
+    android:orientation="vertical"
+    tools:context="com.hzyc.csj.ordermealsystem.Main4Activity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/topfragment"
+        android:layout_weight="1.01"
+        android:layout_gravity="center_horizontal">
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp">
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="查台"
+            android:id="@+id/looktable"
+            android:textSize="20dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:onClick="check"/>
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="菜谱"
+            android:id="@+id/listdelicious"
+            android:onClick="check"
+            android:textSize="20dp"
+            android:layout_marginLeft="47dp"
+            android:layout_marginStart="47dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/looktable"
+            android:layout_toEndOf="@+id/looktable" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="注销"
+            android:id="@+id/out"
+            android:onClick="check"
+            android:textSize="20dp"
+            android:layout_alignTop="@+id/listdelicious"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="统计"
+            android:id="@+id/tongji"
+            android:onClick="check"
+            android:textSize="20dp"
+            android:layout_marginRight="42dp"
+            android:layout_marginEnd="42dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@+id/out"
+            android:layout_toStartOf="@+id/out" />
+    </RelativeLayout>
+</LinearLayout>

@@ -13,7 +13,6 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.hzyc.csj.oedermealsystem.R;
 import com.hzyc.csj.ordermealsystem.utils.StringRegexTools;
 
 import java.io.BufferedReader;
@@ -27,10 +26,10 @@ import java.net.URL;
 public class Main2Activity extends AppCompatActivity {
     private Button register,login;
     private ProgressDialog progressDialog;
-    //private static final String REGPATH = "http://192.168.1.166:8080/csj_web_android_osystem/Register.do";
-    private static final String REGPATH = "http://10.151.4.8:8080/csj_web_android_osystem/Register.do";
-    //private static final String LOGINPATH="http://192.168.1.166:8080/csj_web_android_osystem/Login.do";
-    private static final String LOGINPATH = "http://10.151.4.8:8080/csj_web_android_osystem/Login.do";
+    private static final String REGPATH = "http://192.168.1.166:8080/csj_web_android_osystem/Register.do";
+    private static final String LOGINPATH="http://192.168.1.166:8080/csj_web_android_osystem/Login.do";
+/*    private static final String REGPATH = "http://10.151.4.8:8080/csj_web_android_osystem/Register.do";
+    private static final String LOGINPATH = "http://10.151.4.8:8080/csj_web_android_osystem/Login.do";*/
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -155,11 +154,18 @@ public class Main2Activity extends AppCompatActivity {
                     Toast.makeText(Main2Activity.this, "对不起，系统忙，请稍后重试", Toast.LENGTH_SHORT).show();
                 }
             }else if(s.startsWith("登录")){
-                if(s.endsWith("成功")){
-                    Toast.makeText(Main2Activity.this, "登录成功", Toast.LENGTH_SHORT).show();
-                    Intent intent = new Intent(Main2Activity.this,Main3Activity.class);
-                    startActivity(intent);
-                    overridePendingTransition(R.anim.right,R.anim.left);
+                if(s.startsWith("登录成功")){
+                    if(s.endsWith("0")){
+                        Toast.makeText(Main2Activity.this, "登录成功", Toast.LENGTH_SHORT).show();
+                        Intent intent = new Intent(Main2Activity.this,Main3Activity.class);
+                        startActivity(intent);
+                        overridePendingTransition(R.anim.right,R.anim.left);
+                    }else if(s.endsWith("1")){
+                        Toast.makeText(Main2Activity.this, "登录成功", Toast.LENGTH_SHORT).show();
+                        Intent intent = new Intent(Main2Activity.this,Main4Activity.class);
+                        startActivity(intent);
+                        overridePendingTransition(R.anim.right,R.anim.left);
+                    }
                 }else if(s.endsWith("0")){
                     Toast.makeText(Main2Activity.this, "对不起,该帐号不存在，请注册", Toast.LENGTH_SHORT).show();
                 }else if(s.endsWith("1")){

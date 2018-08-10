@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/maidan"
+        android:title="买单"/>
+    <item
+        android:id="@+id/kaizhuo"
+        android:title="开桌" />
+    <item
+        android:id="@+id/zhuantai"
+        android:title="转台"/>
+    <item
+        android:id="@+id/bingtai"
+        android:title="并台"/>
+    <item
+        android:id="@+id/updatetable"
+        android:title="更新"
+        />
+    <item
+        android:id="@+id/deletetable"
+        android:title="删除"
+        />
+    <item
+        android:id="@+id/chakan"
+        android:title="查看"
+        />
+</menu>

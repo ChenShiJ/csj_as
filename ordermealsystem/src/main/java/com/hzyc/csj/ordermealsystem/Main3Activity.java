@@ -7,12 +7,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
-import com.hzyc.csj.oedermealsystem.R;
 import com.hzyc.csj.ordermealsystem.fragment.OrderFragment;
-import com.hzyc.csj.ordermealsystem.fragment.TableFragment;
+import com.hzyc.csj.ordermealsystem.fragment.PayFragment;
 
 public class Main3Activity extends AppCompatActivity {
-    private Button orderfood,pay,back,looktable;
+    private Button orderfood,pay,back,out;
     private FragmentManager fragmentManager;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,14 +20,11 @@ public class Main3Activity extends AppCompatActivity {
         orderfood = (Button) findViewById(R.id.orderFood);
         pay = (Button) findViewById(R.id.pay);
         back = (Button) findViewById(R.id.back);
-        looktable = (Button) findViewById(R.id.looktable);
+        out = (Button) findViewById(R.id.out);
         fragmentManager = getFragmentManager();
-
         fragmentManager.addOnBackStackChangedListener(new FragmentManager.OnBackStackChangedListener() {
             @Override
-            public void onBackStackChanged() {
-
-            }
+            public void onBackStackChanged() {}
         });
     }
     public void check(View v){
@@ -41,14 +37,15 @@ public class Main3Activity extends AppCompatActivity {
                 fragmentTransaction.addToBackStack("orderFragement");
                 break;
             case R.id.pay :
+               PayFragment payFragment = new PayFragment();
+                fragmentTransaction.replace(R.id.rightfragment,payFragment);
+                fragmentTransaction.addToBackStack("payFragment");
                 break;
             case R.id.back :
                 fragmentManager.popBackStack();
                 break;
-            case R.id.looktable :
-                TableFragment tableFragement = new TableFragment();
-                fragmentTransaction.replace(R.id.rightfragment,tableFragement);
-                fragmentTransaction.addToBackStack("tableFragment");
+            case R.id.out :
+                finish();
                 break;
         }
         fragmentTransaction.commit();

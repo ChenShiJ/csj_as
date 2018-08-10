@@ -9,17 +9,13 @@ public class Delicious {
     private String price;
     private float tuij;
     private String photo;
-    public String getPhoto() {
-        return photo;
+    private String kind;
+
+    public String getKind() {
+        return kind;
     }
-    public void setPhoto(String photo) {
-        this.photo = photo;
-    }
-    public float getTuij() {
-        return tuij;
-    }
-    public void setTuij(float tuij) {
-        this.tuij = tuij;
+    public void setKind(String kind) {
+        this.kind = kind;
     }
     public int getId() {
         return id;
@@ -40,10 +36,21 @@ public class Delicious {
         this.price = price;
     }
 
-
+    public float getTuij() {
+        return tuij;
+    }
+    public void setTuij(float tuij) {
+        this.tuij = tuij;
+    }
+    public String getPhoto() {
+        return photo;
+    }
+    public void setPhoto(String photo) {
+        this.photo = photo;
+    }
     @Override
     public String toString() {
         return "Delicious [id=" + id + ", name=" + name + ", price=" + price + ", tuij=" + tuij + ", photo=" + photo
-                + "]";
+                + ", kind=" + kind + "]";
     }
 }

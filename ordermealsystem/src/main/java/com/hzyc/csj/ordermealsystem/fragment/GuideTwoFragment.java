@@ -7,7 +7,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.hzyc.csj.oedermealsystem.R;
+import com.hzyc.csj.ordermealsystem.R;
 
 
 public class GuideTwoFragment extends Fragment {

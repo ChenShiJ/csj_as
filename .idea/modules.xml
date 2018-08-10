@@ -14,10 +14,10 @@
       <module fileurl="file://$PROJECT_DIR$/demo_10/demo_10.iml" filepath="$PROJECT_DIR$/demo_10/demo_10.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo_11/demo_11.iml" filepath="$PROJECT_DIR$/demo_11/demo_11.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo_12/demo_12.iml" filepath="$PROJECT_DIR$/demo_12/demo_12.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo_13/demo_13.iml" filepath="$PROJECT_DIR$/demo_13/demo_13.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo_music/demo_music.iml" filepath="$PROJECT_DIR$/demo_music/demo_music.iml" />
       <module fileurl="file://$PROJECT_DIR$/libzxing/libzxing.iml" filepath="$PROJECT_DIR$/libzxing/libzxing.iml" />
       <module fileurl="file://$PROJECT_DIR$/navigdemo/navigdemo.iml" filepath="$PROJECT_DIR$/navigdemo/navigdemo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ordermealsystem/oedermealsystem.iml" filepath="$PROJECT_DIR$/ordermealsystem/oedermealsystem.iml" />
       <module fileurl="file://$PROJECT_DIR$/ordermealsystem/ordermealsystem.iml" filepath="$PROJECT_DIR$/ordermealsystem/ordermealsystem.iml" />
       <module fileurl="file://$PROJECT_DIR$/upload_demo/upload_demo.iml" filepath="$PROJECT_DIR$/upload_demo/upload_demo.iml" />
     </modules>

@@ -3,69 +3,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal"
-    android:background="@drawable/xjbj"
+    android:orientation="vertical"
+    android:background="#4424f050"
 
-    tools:context="com.hzyc.csj.ordermealsystem.Main3Activity">
+    tools:context="com.hzyc.csj.ordermealsystem.Main3Activity"
+    android:weightSum="1">
 
-
-    <RelativeLayout
-        android:layout_width="0dp"
-        android:layout_weight="1"
-        android:layout_height="match_parent"
-        >
-
-        <Button
-            style="?android:attr/buttonStyleSmall"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="点餐"
-            android:textSize="20dp"
-            android:onClick="check"
-            android:id="@+id/orderFood"
-            android:layout_marginTop="87dp"
-            android:layout_below="@+id/back"
-            android:layout_centerHorizontal="true" />
-
-        <Button
-            style="?android:attr/buttonStyleSmall"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="买单"
-            android:onClick="check"
-            android:textSize="20dp"
-            android:id="@+id/pay"
-            android:layout_centerVertical="true"
-            android:layout_centerHorizontal="true" />
-        <Button
-            style="?android:attr/buttonStyleSmall"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="返回"
-            android:onClick="check"
-            android:id="@+id/back"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true" />
-
-        <Button
-            style="?android:attr/buttonStyleSmall"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="查台"
-            android:textSize="20dp"
-            android:id="@+id/looktable"
-            android:layout_below="@+id/pay"
-            android:onClick="check"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="64dp" />
-    </RelativeLayout>
 
     <RelativeLayout
-        android:layout_width="0dp"
-        android:layout_weight="3"
+        android:layout_width="match_parent"
         android:id="@+id/rightfragment"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content"
+        android:layout_weight="1.01">
 
         <TextView
             android:layout_width="wrap_content"
@@ -76,6 +25,60 @@
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="111dp" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="返回"
+            android:onClick="check"
+            android:id="@+id/back"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        >
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="点餐"
+            android:textSize="20dp"
+            android:onClick="check"
+            android:id="@+id/orderFood"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="买单"
+            android:onClick="check"
+            android:textSize="20dp"
+            android:id="@+id/pay"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="注销"
+            android:id="@+id/out"
+            android:textSize="20dp"
+            android:onClick="check"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
 
 
     </RelativeLayout>
